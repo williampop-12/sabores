@@ -1,0 +1,115 @@
+
+*{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+}
+body {
+background: #165c05;
+background: linear-gradient(90deg, rgba(22, 92, 5, 1) 0%, rgba(12, 48, 2, 1) 0%, rgba(66, 217, 11, 1) 52%, rgba(22, 92, 5, 1) 100%);
+margin: 20px;
+}
+.search-container{
+  margin-bottom:20px ;
+  text-align: center;
+}
+.search-container input[type="text"]{
+  padding: 10;
+  width: 50%;
+  border: 3px solid yellowgreen;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+.search-container button{
+  padding: 10px 15px;
+  background-color: green;
+  border:none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-container button:hover{
+  background-color: seagreen;
+  transition: 0.3s;
+
+}
+
+#product-list{
+  list-style: none;
+  padding: 25px;
+display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px; /* espacio entre tarjetas */
+  max-width: 1200px; /* opcional: limita el ancho total */
+  margin: 0 auto; /* centra el grid horizontalmente */
+  padding: 20px;
+
+}
+#product-list li{
+  background: #0C590C;
+  border-radius: 20px;
+padding: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /*crea una sombra suave y difuminada alrededor de un elemento*/
+  text-align: center;
+
+}
+
+    header {
+ display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 8px;
+
+
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+align-items: cent;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+nav a.active {
+  color: black;
+}
+
+
+#product-list img {
+  border-radius: 15px;
+  max-width: 90%;
+ 
+
+}
+
+#product-list li h3{
+  color: black;
+}
+
+#product-list li p{
+  color: black;
+}
+
